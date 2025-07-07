@@ -15,8 +15,8 @@ function send_alert_email($email, $name) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'cybernet6533@gmail.com'; // Your email
-        $mail->Password   = 'ifwi vjao lnlr bads'; // Use Gmail App Password
+        $mail->Username   = ''; // Your email
+        $mail->Password   = ''; // Use Gmail App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
